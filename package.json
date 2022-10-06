@@ -1,0 +1,25 @@
+{
+  "name": "Paginanegocio",
+  "version": "1.0.0",
+  "description": "git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/santiagomutis2402/Negocio.git\r git push -u origin main",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagomutis2402/Paginanegocio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagomutis2402/Paginanegocio/issues"
+  },
+  "homepage": "https://github.com/santiagomutis2402/Paginanegocio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  }
+}
