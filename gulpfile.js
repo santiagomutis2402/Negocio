@@ -12,5 +12,5 @@ gulp.task("sass", function () {
 });
 
 exports.watch = function () {
-  gulp.watch("src/sass/**.scss", parallel("sass"));
+  gulp.watch("src/sass/**/*.scss", gulp.series("sass"));
 };
